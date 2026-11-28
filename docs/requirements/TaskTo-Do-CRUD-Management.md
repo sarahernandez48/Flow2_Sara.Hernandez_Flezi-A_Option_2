@@ -12,11 +12,11 @@ Estimate the effort for this user story using a Fibonacci scale (1, 2, 3, 5, 8, 
 
 | Factor | Your Assessment |
 | :---- | :---- |
-| **Complexity** *(how hard is the logic?)* | *(fill in)* |
-| **Effort** *(how much work / how many parts?)* | *(fill in)* |
-| **Uncertainty / Risk** *(unknowns, dependencies?)* | *(fill in)* |
-| **Your Estimate (points)** | *(fill in)* |
-| **Rationale** | *(explain how you arrived at your estimate)* |
+| **Complexity** *(how hard is the logic?)* | *3* |
+| **Effort** *(how much work / how many parts?)* | *8* |
+| **Uncertainty / Risk** *(unknowns, dependencies?)* | *3* |
+| **Your Estimate (points)** | *8* |
+| **Rationale** |8 points is appropriate because this is more than a basic CRUD implementation. The solution includes JWT authentication, strict per-user ownership, database uniqueness by owner/title/date, validation, conflict handling, filtering, traditional pagination, deterministic sorting, idempotent updates, optimistic frontend behavior, concurrency protection, cross-tab synchronization, structured error handling, and automated testing. The core business logic remains relatively straightforward, and choosing traditional pagination instead of cursor-based pagination limits additional complexity. Most original ambiguities have now been resolved, reducing uncertainty sufficiently to keep the overall estimate at 8 rather than 13 points.|
 
 #  **Acceptance Criteria**
 
